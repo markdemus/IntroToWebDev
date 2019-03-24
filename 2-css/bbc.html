@@ -1,0 +1,447 @@
+<html>
+	
+	<head>
+		
+		<title>Technology - BBC News</title>
+		
+		<style type="text/css">
+			
+			#topbar {
+				width: 1000px;
+				margin: 0 auto;
+				height: 40px;
+				
+			}
+			
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: Helvetica, Arial, sans-serif;
+			}
+			
+			#logo {
+				margin-top: -30px;
+				width: 100px;
+				float: left;
+				margin-right: 8px;
+				
+			}
+			
+			.topbar-section {
+				float: left;
+				border-left: 1px #CCCCCC solid;
+				height: 100%;
+			}
+			
+			#signin-image {
+				width: 30px;
+				margin: 4px 15px;
+				float: left;
+			}
+			
+			#signin-text {
+				font-weight: bold;
+				font-size: 100%;
+				position: relative;
+				top: 8px;
+				padding-right: 30px;
+			}
+			
+			.topbar-menu {
+				font-weight: bold;
+				font-size: 90%;
+				padding: 14px 15px 0 14px;
+				height: 26px;
+			}
+			
+			#more-arrow {
+				width: 20px;
+				margin-left: 1px
+				height: 8px;
+				position:relative;
+				
+			}
+			
+			#search-box {
+				background-color: #E4E4E4;
+				border: none;
+				font-weight: bold;
+				font-size: 14px;
+				padding: 4.78px;
+				margin: 5px 0 5px 5px;
+				float: left;
+			}
+			
+			#magnifying-glass {
+				height: 27px;
+				margin-top: 5px;
+			}
+			
+			.clear {
+			
+				clear: both;
+			}
+		
+			#menu-bar-container {
+				border-top: 1px solid #CCCCCC;
+				background-color: #BB1919;
+				width:100%;
+				height:85px;
+			}
+			
+			#menu-bar {
+				width:1000px;
+				margin: 0 auto;
+			}
+			
+			h1 {
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-size: 40px;
+				font-weight: normal;
+				padding-top: 10px;
+				float: left;
+				
+			}
+			
+			#menu-bar-2-container {
+				background-color: #A91717;
+				width: 100%;
+			}
+			
+			#menu-bar-2 {
+				width:1000px;
+				margin: 0 auto;
+				height: 30px;
+				
+			}
+		
+			#menu-bar-2 a {
+				color: white;
+				text-decoration: none;
+				padding: 0 10px;
+				border-right: 1px solid #BB4545;
+				font-size: 14px;
+				top: 8px;
+			}
+			
+			#menu-bar-2 a:hover {
+				text-decoration: underline;
+			}
+			
+			.no-border {
+				border: none !important;
+			}
+		
+			#more-arrow-2 {
+				width: 20px;
+				margin-left: 1px
+				height: 8px;
+				position:relative;
+				top:8px;
+			}
+			
+			#page-container {
+				width: 1000px;
+				margin: 0 auto;
+			}
+			
+			h2 {
+				font-weight: normal;
+				margin-top: 10px;
+				font-size: 20px;
+				border-bottom: 2px solid #A91717;
+				width:100px;
+			}
+			
+			h3 a {
+				color: black;
+				font-size: 25px;
+				text-decoration: none;
+			}
+			
+			h3 a:hover {
+				color: #1167a8;
+			}
+			
+			#article-summary {
+				color: #5a5a5a;
+				width: 270px;
+				float: left;
+			}
+			
+			.clock {
+				height 15px;
+				position: relative;
+				top: 6px;
+			}
+			
+			.topic-link {
+				text-decoration: none;
+				color: #A91717;
+				border-left: 1px solid #CCCCCC;
+				padding: 8px;
+				font-size: 14px;
+				
+			}
+			
+			#article-summary a:hover {
+				color: #1167a8;
+			}
+			
+			.date {
+				padding-right: 8px;
+				font-size: 12px;
+				color: #5a5a5a;
+			}
+			
+			#article-container {
+				float: left;
+				width: 700px;
+				border-right: 1px solid #CCCCCC;
+				padding: 1px;
+			}
+			
+			#main-article-image {
+				width: 400px;
+			}
+			
+			#article-hr {
+				border-top: 1px solid #a91717;
+				width: 50px;
+			}
+			
+			.article-link {
+				color: black;
+				text-decoration: none;
+			}
+			
+			#watch-listen{
+				margin-left: 5px;
+				width: 280px;
+				float: right;
+			}
+			
+			h4 {
+				font-weight: normal;
+				font-size: 20px;
+			}
+			
+			.vid-side-image {
+				float: left;
+				width: 120px;
+				margin-right: 8px;
+			}
+			
+			.watch-listen-link {
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+				font-size: 16px;
+			}
+			
+			.watch-listen-link:hover {
+				color: #1167a8;
+			}
+			
+			.side-article {
+				float: right;
+				width: 152px;
+				position: relative;
+				top:-20px;
+			}
+			
+			.no-border {
+				border-left: none;
+				padding: 0;
+			}
+			
+			.border-right {
+				border-right: 1px solid #CCCCCC;
+			}
+			
+		</style> 
+		
+	</head>
+	
+	<body>
+		
+		<div id="topbar"> 
+		
+		<img id="logo" src="https://i.imgur.com/njbbh4r.png">
+		
+		<div id="signin-div" class="topbar-section">
+		
+			<img id="signin-image" src="https://i.imgur.com/rGL5Dut.png">
+			
+			<span id="signin-text">Sign in</span>
+		
+		</div>
+		
+		<div class="topbar-section topbar-menu">
+		
+			News
+			
+		</div>	
+		<div class="topbar-section topbar-menu">
+		
+			Sport
+			
+		</div>
+		<div class="topbar-section topbar-menu">
+		
+			Weather
+			
+		</div>
+		<div class="topbar-section topbar-menu">
+		
+			Shop
+			
+		</div>
+		<div class="topbar-section topbar-menu">
+		
+			Reel
+			
+		</div>
+		<div class="topbar-section topbar-menu">
+		
+			Travel
+			
+		</div>
+		<div class="topbar-section topbar-menu">
+		
+			More
+			<img id="more-arrow" src="https://i.imgur.com/LKTCgt0.png">
+			
+		
+		</div>
+		
+		<div class="topbar-section">
+		
+		<input id="search-box" type="text" value="Search">
+		<input type="image" id="magnifying-glass" src="https://i.imgur.com/H8PLcg5.png">
+		
+		</div>
+		
+		<div class="clear">
+		
+		</div>
+		
+		<div id="menu-bar-container">
+		
+			<div id="menu-bar">
+		
+				<h1>NEWS</h1>
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div id="menu-bar-2-container">
+			<div id="menu-bar-2">
+			
+			<a href="">Home</a>
+			<a href="">Video</a>
+			<a href="">World</a>
+			<a href="">US & Canada</a>
+			<a href="">UK</a>
+			<a href="">Business</a>
+			<a href="">Tech</a>
+			<a href="">Science</a>
+			<a href="">Stories</a>
+			<a href="">Entertainment & Arts</a>
+			<a href="">Health</a>
+			<a href="" class="no-border">More</a>
+			<img id="more-arrow-2" src="https://i.imgur.com/g0WftHR.png">
+			
+		</div>
+		
+		</div>
+		
+		</div>
+		
+			<div class="clear"></div>
+			
+			<div id="page-container">
+			
+				<div id="main-article">
+			
+					<h2>Technology</h2>
+					
+					<div id="article-container">
+					
+						<h3><a href="">Facebook's data-sharing deals exposed</a></h3>
+						
+						<div id="article-summary">
+						
+						<p>An investigation reveals other tech firms were not always aware how much access they had.</p>
+						
+						<p><img class="clock" src="https://i.imgur.com/oWN1xeB.png"> <span class="date">19 December 2018</span><a id="topic-link" href="">Technology</a></p>
+					
+						<hr id="article-hr" align="left">
+						
+						<p><a class="article-link" href="">Facebook bug exposed millions of photos</a></p>
+						<p><a class="article-link" href="">Grieving mother urges baby ads rethink</a></p>
+						<p><a class="article-link" href="">Facebook's hidden battle against ad-blockers</a></p>
+
+					
+					</div>
+					
+					<img id="main-article-image" src="https://i.imgur.com/NbbAQDZ.png">
+				
+				</div>
+			
+			</div>
+			
+				
+			<div id="watch-listen">
+			
+			
+				<h4>Watch/Listen<h4>
+				
+				<img class="vid-side-image" src="https://i.imgur.com/pfudrMy.png">
+				
+				<div class="side-article">
+				
+				
+					<p><a class="watch-listen-link" href="">Elon Musk unveils high-speed transport tunnel</a></p>
+					
+					<p><img class="clock" src="https://i.imgur.com/oWN1xeB.png"> <span class="date">19 December 2018</span>
+					
+				</div>
+				
+				<div class="clear"></div>
+				
+				<img class="vid-side-image" src="https://i.imgur.com/LpHpoxP.png">
+				
+				<div class="side-article">
+				
+				
+					<p><a class="watch-listen-link" href="">Is Brexit 'game over' for tech recruitment?</a></p>
+					
+					<p><img class="clock" src="https://i.imgur.com/oWN1xeB.png"> <span class="date border-right">19 December 2018</span><br><a class="topic-link no-border" href="">Business</a></p>
+					
+				</div>
+				
+				<div class="clear"></div>
+				
+				<img class="vid-side-image" src="https://i.imgur.com/cAFs3HE.png">
+				
+				<div class="side-article">
+				
+				
+					<p><a class="watch-listen-link" href="">How the Softbank share sale could change your life</a></p>
+					
+					<p><img class="clock" src="https://i.imgur.com/oWN1xeB.png"> <span class="date border-right">19 December 2018</span><br><a class="topic-link no-border" href="">Business</a></p>
+					
+				</div>
+				
+			
+			</div>
+			
+						
+			</div>
+			
+	</body>
+	
+</html>
